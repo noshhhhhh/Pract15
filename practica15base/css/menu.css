@@ -1,28 +1,34 @@
-.logo{
+.logo {
     display: inherit;
     font-family: 'Rambla', sans-serif;
     font-size: 1.1em;
     margin: 0;
 }
+
 .logo a {
     text-decoration: none;
 }
-nav{
+
+nav {
     display: inherit;
 }
-nav ul{
+
+nav ul {
     margin: 0;
     padding: 10px 0px 10px 30px;
     list-style-type: none;
 }
-ul li{
+
+ul li {
     display: inline;
     margin-right: 40px;
 }
+
 ul li a {
- text-decoration: none;
- color: #ffffff;
+    text-decoration: none;
+    color: #00ff00; /* Verde */
 }
+
 ul li a:hover, ul li a.current {
- color: #000000;
+    color: #000000; /* Negro */
 }
