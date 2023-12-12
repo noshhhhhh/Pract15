@@ -1,35 +1,40 @@
-.problema{
+
+.problema {
     grid-area: a1;
-    background-color: blue;
-    color: gold;
-    border-radius: 5px;
-}
-.datos{
-    grid-area: a2;
-    background-color: red;
-    border-radius: 5px;
-}
-.formulas{
-    grid-area: a3;
-    background-color: darkcyan;
-    border-radius: 5px;
-}
-.calculos{
-    grid-area: a4;
-    background-color: indigo;
-    color: white;
-    border-radius: 5px;
-}
-.resultado{
-    grid-area: a5;
-    background-color: darkgreen;
-    color: white;
+    background-color: #000080; /* Azul oscuro */
+    color: #ffd700; /* Oro */
     border-radius: 5px;
 }
 
-#contenedor{
+.datos {
+    grid-area: a2;
+    background-color: #ff0000; /* Rojo */
+    border-radius: 5px;
+}
+
+.formulas {
+    grid-area: a3;
+    background-color: #008b8b; /* Cyan oscuro */
+    border-radius: 5px;
+}
+
+.calculos {
+    grid-area: a4;
+    background-color: #4b0082; /* Índigo oscuro */
+    color: #ffffff; /* Blanco */
+    border-radius: 5px;
+}
+
+.resultado {
+    grid-area: a5;
+    background-color: #006400; /* Verde oscuro */
+    color: #ffffff; /* Blanco */
+    border-radius: 5px;
+}
+
+#contenedor {
     display: grid;
-    grid-template-columns:  repeat(4, [col] 1fr) ;
+    grid-template-columns: repeat(4, [col] 1fr);
     grid-template-rows: auto;
     grid-template-areas: "a1 a1 a1 a1"
                          "a2 a2 a3 a3"
